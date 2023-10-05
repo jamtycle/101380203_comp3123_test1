@@ -1,0 +1,12 @@
+{
+  "name": "101380203_comp3123_test1",
+  "version": "1.0.0",
+  "description": "Lab test 1",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
