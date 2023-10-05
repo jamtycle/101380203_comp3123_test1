@@ -6,5 +6,6 @@ const lowerCaseWords = (_arr) => new Promise((res, rej) => {
     res(lowers);
 });
 
-console.log(lowerCaseWords(mixedArray).then((x) => console.log(x)).catch((err) => console.log(err))); // pending
-console.log(lowerCaseWords("mixedArray")); // rejected
+// console.log(lowerCaseWords(mixedArray).then((x) => console.log(x)).catch((err) => console.log(err))); // pending
+lowerCaseWords(mixedArray).then((x) => console.log(x)).catch((err) => console.log(err))
+// console.log(lowerCaseWords("mixedArray")); // rejected

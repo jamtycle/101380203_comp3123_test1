@@ -10,7 +10,7 @@ const delayedSuccess = async () => {
 const delayedException = async () => {
     return new Promise(async (res, rej) => {
         await new Promise((res) => setTimeout(res, 500));
-        rej(new Error("error: delayed exception!"));
+        rej({ "error": "delayed exception!" });
     })
 };
 
